@@ -1290,17 +1290,19 @@ footer{
 @media (max-width: 768px){
 
     /* Navbar */
-    nav{
-        padding:20px;
-        flex-direction:column;
-        gap:20px;
-    }
+   nav{
+    padding:15px 20px;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+}
 
-    nav ul{
-        gap:15px;
-        flex-wrap:wrap;
-        justify-content:center;
-    }
+nav ul{
+    gap:10px;
+    flex-wrap:nowrap;
+    justify-content:flex-end;
+}
 
     /* Hero */
     .hero{
